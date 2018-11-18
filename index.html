@@ -405,13 +405,19 @@
       <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s"></div>
       <div class="highlight waypoint" data-animation="slide-in-right" data-delay=".5s">Have a question or want to work together?</div>
       <form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form" name="contact" method="POST" netlify>
-        <input placeholder="Name" type="text" name="name" required>
-        <input placeholder="Enter email" type="email" name="email" required>
-        <textarea placeholder="Your Message" type="text" name="message"></textarea>
+        <p>
+          <label>Name<input placeholder="Name" type="text" name="name" required></label>
+        </p>
+        <p>
+          <label>Email</label><input placeholder="Enter email" type="email" name="email" required></p>
+        </p>
+        <p>
+          <label>Message<textarea placeholder="Your Message" type="text" name="message"></textarea></label>
+        </p>
         <div id="success">
-          <div>Your message was sent successfully. Thanks!<span id="close" class="mdi far fa-window-close""></span></div>
+          <div>Your message was sent successfully. Thanks!<span id="close" class="mdi far fa-window-close"></span></div>
         </div>
-        <input class="button" type="submit" id="submit" value=SUBMIT>
+        <button class="button" type="submit" id="submit">SUBMIT</button>
         <div data-netlify-recaptcha></div>
       </form>
     </div>
