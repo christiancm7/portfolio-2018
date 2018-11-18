@@ -1,2 +1,2 @@
-# portfolio-2018
-# portfolio-2018
+# My Current Portfolio created with pure HTML and CSS deployed with netlify.
+
