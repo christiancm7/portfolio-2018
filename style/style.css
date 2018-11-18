@@ -1,12 +1,3 @@
-@font-face {
-    font-family: 'Raleway';
-    src: url("http://findmatthew.com/style/../fonts/Raleway-Regular.ttf"); }
-  @font-face {
-    font-family: 'Raleway-semibold';
-    src: url("http://findmatthew.com/style/../fonts/Raleway-SemiBold.ttf"); }
-  @font-face {
-    font-family: 'Raleway-bold';
-    src: url("http://findmatthew.com/style/../fonts/Raleway-Bold.ttf"); }
   @keyframes fadeIn {
     100% {
       opacity: 1; } }
@@ -127,7 +118,9 @@
       vertical-align: middle; }
   
   .bold {
-    font-family: 'Raleway-bold'; }
+    font-family: 'Raleway';
+    font-weight: 700;
+  }
   
   .flex {
     display: flex;
@@ -177,7 +170,8 @@
   
   .header {
     font-size: 25pt;
-    font-family: 'raleway-bold';
+    font-family: 'Raleway';
+    font-weight: 700;
     position: relative;
     color: #444649;
     position: relative; }
@@ -330,12 +324,15 @@
     .modal-wrap .title {
       font-size: 16pt;
       line-height: 20pt;
-      font-family: 'Raleway-bold'; }
+      font-family: 'Raleway';
+      font-weight: 700;
+    }
     .modal-wrap .tag {
       display: block;
       font-weight: 300;
       color: #c0c0c0;
-      font-family: 'Raleway-bold';
+      font-family: 'Raleway';
+      font-weight: 700;
       border-bottom: 1px solid rgba(0, 0, 0, 0.1);
       padding-bottom: 15px;
       font-size: 8pt; }
@@ -393,7 +390,9 @@
       color: #fff;
       height: calc(100vh + 53px); }
       section:nth-of-type(1) .highlight {
-        font-family: 'Raleway-semibold'; }
+        font-family: 'Raleway';
+        font-weight: 600;
+      }
       section:nth-of-type(1) .text {
         margin: 0 0 20px 0;
         font-size: 16pt;
