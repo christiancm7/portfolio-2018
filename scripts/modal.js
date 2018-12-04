@@ -36,10 +36,10 @@ $(document).ready(function(){
       }
     };
   
-    $('#gallery .button').on('click', function(){
-      fillModal(this.id);
-      $('.modal-wrap').addClass('visible');
-    });
+    // $('#gallery .button').on('click', function(){
+    //   fillModal(this.id);
+    //   $('.modal-wrap').addClass('visible');
+    // });
   
     $('.close').on('click', function(){
       $('.modal-wrap, #modal .button').removeClass('visible');
@@ -118,7 +118,7 @@ $(document).ready(function(){
       });
       $.each($('#modal .slide'), function(index, value) {
         $(this).css({
-          background: "url('img/slides/" + id + '-' + index + ".jpg') center center/cover",
+          background: "url('..img/thumb-" + index + ".png') center center/cover",
           backgroundSize: 'cover'
         });
                 
